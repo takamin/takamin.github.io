@@ -1,0 +1,81 @@
+.cheetsheet {
+	background-color:silver;
+	border: solid 3px #cff;
+	border-radius:10px 10px 10px 10px;
+	padding:5px;
+	right:310px;
+	width:300px;
+	font-family:monospace;
+	font-size:9pt;
+}
+
+.cheetsheet .button {
+	cursor:pointer;
+	height:16px;
+	line-height:16px;
+	text-align:center;
+	margin:1px;
+	padding:1px;
+	border-width:1px;
+	border-color:silver;
+	border-style:solid;
+	border-radius:3px;
+}
+.cheetsheet .button:hover {
+	border-color:blue;
+	color:blue;
+	border-color:gray;
+}
+.cheetsheet .button.tab {
+	cursor:pointer;
+	margin:1px 0 0 0;
+	border-radius:5px 0px 0px 0px;
+	padding:2px;
+	width:28px;
+	float:left;
+	background-color:#8cc;
+}
+.cheetsheet .button.tab.selected {
+	font-weight:bold;
+	background-color:#cff;
+	border-color:#cff;
+}
+.cheetsheet .button.close {
+	width:20px;
+	float:right;
+}
+.cheetsheet .faceItem {
+	font-family:monospace;
+	cursor:pointer;
+	float:left;
+	height:20px;
+	line-height:20px;
+	margin:1px;
+	padding:1px 10px;
+	border-width:1px;
+	border-color:silver;
+	border-style:solid;
+}
+.cheetsheet .faceItem:hover {
+	color:blue;
+}
+
+.panel.category.content {
+	margin-top:0px;
+	border: solid 1px #cff;
+	padding:5px;
+	background-color:#cff;
+}
+#messagePanel {
+	margin-top:2px;
+	margin-bottom:0;
+	border: solid 3px #6aa;
+	padding:3px;
+	border-radius:5px;
+	background-color:silver;
+	font-size:9pt;
+}
+
+.linktohome {
+	text-align:center;
+}
