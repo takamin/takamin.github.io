@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://takamin.github.io/</loc>
+        <lastmod>2017-07-01T21:00:00+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://takamin.github.io/mz700-js/MZ-700/client.html</loc>
+        <lastmod>2017-07-10T21:00:00+09:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://takamin.github.io/svg-z-order/</loc>
+        <lastmod>2017-07-10T21:00:00+09:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://takamin.github.io/fullscrn/</loc>
+        <lastmod>2017-07-10T21:00:00+09:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
