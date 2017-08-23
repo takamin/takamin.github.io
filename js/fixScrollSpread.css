@@ -1,0 +1,74 @@
+/*縦スクロールバー*/
+.vsb		{width :20px;overflow-y:scroll;overflow-x:hidden;}
+.vsb > div	{width :20px;overflow:hidden;}
+
+/*横スクロールバー*/
+.hsb		{height:20px;overflow-x:scroll;overflow-y:hidden;}
+.hsb > div	{height:20px;overflow:hidden;}
+
+/*枠線*/
+.border0001 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:0px 0px 0px 1px;
+}
+.border0010 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:0px 0px 1px 0px;
+}
+.border0011 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:0px 0px 1px 1px;
+}
+.border0100 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:0px 1px 0px 0px;
+}
+.border0110 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:0px 1px 1px 0px;
+}
+.border0111 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:0px 1px 1px 1px;
+}
+.border1110 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:1px 1px 1px 0px;
+}
+.border1111 {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:1px 1px 1px 1px;
+}
+
+/*左詰めの非スクロールパネル*/
+.floatPanel	{ float:left; overflow:hidden; }
+
+/*スクロール領域*/
+.scrl		{ overflow:hidden;}
+
+.vscrl .fssRow {
+	border-style:solid;
+	border-color:silver;
+	border-width:0 0 1px 0;
+}
+.cell {
+	border-style:solid solid;
+	border-color:gray gray;
+	border-width:0 1px 0 0;
+}
+.vfixed .fssRow > .col > .cell {
+	height:30px;
+	line-height: 30px;
+}
+.vscrl .fssRow > .col > .cell {
+	height:80px;
+	line-height: 20px;
+}

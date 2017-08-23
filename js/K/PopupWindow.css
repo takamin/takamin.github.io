@@ -1,0 +1,27 @@
+.PopupWindow {
+	border-style:solid;
+	border-width:1px;
+	border-color:silver;
+}
+
+.PopupWindowTitlebar {
+	background-color:silver;
+	color:white;
+	font-weight:bold;
+}
+
+.PopupWindowClient {
+	color:gray;
+	background-color:white;
+	overflow:auto;
+}
+
+.PopupWindowShadow {
+	background-image:url(dialogShadow.png);
+	background-repeat:repeat;
+}
+
+.PopupWindowWrapper {
+	background-image:url(wrapperBG.png);
+	background-repeat:repeat;
+}

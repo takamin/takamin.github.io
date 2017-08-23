@@ -1,0 +1,19 @@
+th.num, td.num { text-align:right; }
+th.cur, td.cur { text-align:right; }
+th.str, td.str { text-align:left; }
+th.date, td.date { text-align:center; }
+th.code, td.code { text-align:center; }
+th.sum, td.sum { font-weight:bold; }
+th.left, td.left { text-align:left; }
+th.right, td.right { text-align:right; }
+th.center, td.center { text-align:center; }
+#docHead > div { padding-bottom:1px; }
+#docHead p { padding:0 0 3px 0; }
+#docBody p { line-height:1.8em; }
+#topIndex p {
+	margin:3px;
+	line-height:1.2em;
+}
+#docBody > div > .rightSideSub {
+	width:130px;
+}

@@ -1,0 +1,74 @@
+input[type=submit] {
+	height:40px;
+	width:80px;
+}
+input.TextBox {
+	font-size:9pt;
+}
+textarea.TextBox {
+	font-size:9pt;
+}
+.TextBox {
+	background-color:#ffc;
+	border-color:silver;
+	border-width:1px;
+	border-style:solid;
+	padding-right:1px;
+}
+.TextBox:hover {
+	background-color:#ffa;
+	border-color:gray;
+}
+.TextBox:focus {
+	background-color:#eef;
+	border-color:blue;
+}
+
+.TextBoxPopupListItem {
+	font-size:9pt;
+	color:black;
+	cursor:pointer;
+}
+
+.TextBoxPopupListItem:hover {
+	color:blue;
+	background-color:#ccc;
+}
+select.K		{ background-color:#ffc; border-color:silver; border-width:1px; border-style:solid; }
+select.K:hover	{ background-color:#ffa; border-color:gray; }
+select.K:focus	{ background-color:#eef; border-color:blue; }
+input.K[type=checkbox],input.K[type=radio]				{ background-color:#ffc; border-color:silver; border-width:1px; border-style:solid; }
+input.K[type=checkbox]:hover,input.K[type=radio]:hover	{ background-color:#ffa; border-color:gray; }
+input.K[type=checkbox]:focus,input[type=radio].K:focus	{ background-color:eef;	 border-color:blue; }
+.K		 { background-color:#ffc; border-color:silver; border-width:1px; border-style:solid; }
+.K:hover { background-color:#ffa; border-color:gray; }
+
+input.Error, textarea.Error {
+	color:red;
+	border-color:red;
+}
+input.Error:focus, textarea.Error:focus {
+	color:red;
+	border-color:red;
+}
+input.Number {
+	text-align:right;
+}
+
+.selectionList {
+	overflow-y:scroll;
+}
+.selectionItem {
+	cursor:pointer;
+}
+.selectionItem:hover {
+	background-color:#66f;
+}
+.selectionItem a {
+	color:gray;
+	text-decoration:none;
+}
+.selectionItem a:hover, .selectionItem:hover a {
+	background-color:#66f;
+	color:white;
+}

@@ -1,0 +1,38 @@
+.simpleItemLinkList { font-size:0.9em; color:#999; margin-bottom:1em; }
+.simpleItemLinkList li { margin-left:1em; }
+.simpleItemLinkList a { color:#777; }
+.simpleItemLinkList a { text-decoration:none; }
+.simpleItemLinkList a:visited  { color:#567; }
+.simpleItemLinkList a:active  { text-decoration:underline; }
+.simpleItemLinkList a:hover { color:#765; text-decoration:underline;}
+
+
+.ama_pa_item {
+    padding:5px 0px 5px;
+    text-align: left;
+    font-size:9pt;
+}
+.ama_pa_item > .image {
+    float:left;
+    margin-right:5px;
+    width:120px;
+    height:120px;
+    padding:0;
+    text-align:center;
+}
+.ama_pa_item > .image > img {
+    margin-left:auto;
+}
+.ama_pa_item > .text {
+    outline:0;
+}
+.ama_pa_item > .text > .title {
+}
+.ama_pa_item > .text > .price {
+}
+.ama_pa_item > .text > .author {
+}
+.ama_pa_item > .text > .publisher {
+}
+.ama_pa_item > .text > .linkDetail {
+}

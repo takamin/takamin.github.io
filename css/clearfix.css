@@ -1,0 +1,19 @@
+/**
+ * clearfix 
+ */
+.clearfix:after {
+	display:block;
+	clear:both;
+	height:0px;
+	visibility:hidden;
+	content:"&nbsp;";
+}
+/*IE6ÅA7ëŒçÙ*/
+.clearfix { min-height:1px; }
+* html .clearfix {
+    height: 1px;
+    /*\*//*/ /*MAC IE5.xëŒçÙ*/
+    height: auto;
+    overflow: hidden;
+    /**/
+}

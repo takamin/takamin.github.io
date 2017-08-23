@@ -1,0 +1,40 @@
+/*
+ * MZT読み込みボタン
+ */
+.mztLib button {
+    border-color: buttonface;
+    font-weight:bold;
+    font-family: Arial;
+    font-size:10pt;
+    height:30px;
+    line-height:24px;
+    padding: 1px 6px;
+    margin: 0;
+}
+#btnLoadWonderHouse {
+    background-color:yellow;
+    color:red;
+}
+#btnLoadBdHopper {
+    background-color:blue;
+    color:white;
+}
+
+table#emu-list th
+{ padding:5px; }
+
+table#emu-list th,
+table#emu-list td
+{ text-align:center; }
+
+.data-recorder a.download-link {
+    width:initial;
+}
+.MZ-700 .data-recorder .cmt-message a {
+    width:auto;
+}
+button.mzt-load-button {
+    border-radius:5px;
+    border-width:1px;
+    margin: 2px 0;
+}

@@ -1,0 +1,53 @@
+#ConvExcelColNumName {
+	margin:3px 0 20px;
+	padding:3px 0 3px 3px;
+	background-color:silver;
+	border: 2px outset silver;
+	width:722px;
+}
+
+.xlsColNumRow {
+	float:left;
+}
+#ConvExcelColNumName .xlsColNumRow {
+	font-size:18pt;
+}
+
+#ConvExcelColNumName .xlsColNumCol {
+	float:left;
+	height:64px;
+	line-height:64px;
+}
+#ConvExcelColNumName .colName {
+	width:100px;
+}
+#ConvExcelColNumName .colValue {
+	width:250px;
+}
+
+#txtColName, #txtColNumber {
+	text-align:center;
+	width:245px;
+	height:48px;
+	line-height:48px;
+	font-family:Courier New;
+	font-weight:bold;
+	font-size:28pt;
+}
+
+#txtColName {
+	
+}
+#txtColNum {
+	
+}
+
+table.colnummap {
+	margin:5px;
+}
+table.colnummap td {
+	text-align:center;
+	width:78px;
+	font-size:1.5em;
+	font-weight:bold;
+}

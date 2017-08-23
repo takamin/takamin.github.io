@@ -1,0 +1,16 @@
+button.latchButton {
+	color:gray;
+}
+button.latchButton.latched {
+	border-style:inset;
+	color:black;
+}
+button.latchButton:hover {
+	color:blue;
+}
+button.latchButton:disabled {
+	color:gray;
+}
+button.latchButton:disabled:hover {
+	color:gray;
+}

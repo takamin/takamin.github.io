@@ -1,0 +1,64 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Find Prime Numbers</title>
+<style type="text/css">
+span { display:inline-block; padding:10px; margin:2px; }
+.label {
+    width:120px; text-align:center;
+    background-color:silver; border: solid gray 1px; }
+</style>
+</head>
+<body>
+<h1>Find Prime Numbers</h1>
+Clock: <span id="clock"></span> (The foreground thread blocks this clock to be updated)
+<div>
+    Find 50000 prime numbers in
+    <button type="button" id="buttonFindPrimes">Foreground thread</button>
+    or
+    <button type="button" id="buttonFindPrimesMT">Background thread</button>
+    <span id="result"></span>
+</div>
+
+<script src="prime.js"></script>
+<script src="../transworker.js"></script>
+<script type="text/javascript">
+(function() {
+    setInterval(function() {
+        document.getElementById("clock").innerHTML = (new Date()).toString();
+    }, 100);
+    var numOfPrimes = 50000;
+    var result = document.getElementById('result');
+    var clearResult = function() {
+        result.innerHTML = "";
+    };
+    var addPrime = function(prime) {
+        var spanPrime = document.createElement('SPAN');
+        spanPrime.innerHTML = prime;
+        result.appendChild(spanPrime);
+    };
+    var listPrimes = function(primes) {
+        if(primes == null) {return;}
+        primes.forEach(function(prime) { addPrime(prime); });
+    };
+    document.getElementById("buttonFindPrimes").addEventListener("click", function() {
+        clearResult();
+        var prime = new Prime();
+        setTimeout(function() {
+            prime.findPrimes(numOfPrimes);
+            listPrimes(prime.getPrimes());
+        }, 0);
+    });
+    document.getElementById("buttonFindPrimesMT").addEventListener("click", function() {
+        clearResult();
+        var prime = TransWorker.create("./prime_worker.js", Prime, this);
+        prime.findPrimes(numOfPrimes, function() {
+            clearResult();
+            prime.getPrimes(listPrimes);
+        });
+    });
+}());
+</script>
+</body>
+</html>
+

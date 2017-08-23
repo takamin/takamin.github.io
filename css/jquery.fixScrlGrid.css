@@ -1,0 +1,16 @@
+.scrlGrid, .scrlGrid_row, .scrlGrid_cell {
+	border-color:silver;
+	border-style:solid;
+}
+.scrlGrid {
+	border-width:1px;
+	background-color:#444;
+}
+.scrlGrid_contents {
+	background-color:white;
+}
+.scrlGrid_row { border-width:0 0 1px 0; }
+.scrlGrid_cell {
+	border-width: 0 1px 0 0;
+	padding: 0 0.5em;
+}

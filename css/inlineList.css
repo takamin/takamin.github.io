@@ -1,0 +1,11 @@
+ul.inline {
+	list-style:none;
+	padding-left:0;
+} 
+ul.inline > li {
+	display:inline;
+}
+ul.inline > li:not(:nth-child(1)):before {
+	content:" | ";
+	color:silver;
+}

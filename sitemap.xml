@@ -7,6 +7,18 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://takamin.github.io/techtips/xlsColNumMap</loc>
+        <lastmod>2017-09-18T16:50:00+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://takamin.github.io/MZ-700/index</loc>
+        <lastmod>2017-09-18T16:50:00+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://takamin.github.io/mz700-js/MZ-700/client.html</loc>
         <lastmod>2017-07-10T21:00:00+09:00</lastmod>
         <changefreq>daily</changefreq>
