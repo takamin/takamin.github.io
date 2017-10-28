@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta http-equiv="content-language" content="ja" />
 <!-- <meta name="google-site-verification" content="nUqopi3TJP3ddEHCnjZyyY3haOofc7JcXU77rUaoHMQ" /> -->
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -8,8 +8,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
 <meta name="twitter:widgets:csp" content="on" >
 <link href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><!-- <base href="http://127.0.0.1:80../index.php/techtips/"/>		 --><meta name="description" content="Googleマップを標高で色分けして表示します。"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><!-- <base href="http://127.0.0.1:80../index.php/techtips/"/>		     --><meta name="description" content="Googleマップを標高で色分けして表示します。"/>
 <meta name="keywords" content="google,map,標高,海抜,色分け,地図,javascript,api,v3,ElevationService,getElevationAlongPath"/>
+<meta property="og:site_name" content="たかみんつ"/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="https://takamin.github.io/image/icon.png"/>
+<meta property="og:url" content="https://takamin.github.io/techtips/gmap"/>
+<meta property="og:description" content="Googleマップを標高で色分けして表示します。"/>
+<meta property="og:title" content="Google標高カラーマップ"/>
+<meta property="fb:admins" content="100002474127393"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@_takamin_"/>
+<meta name="twitter:creator" content="@_takamin_"/>
+<meta name="twitter:image" content="https://takamin.github.io/images/icon.png"/>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
 <title>Google標高カラーマップ｜たかみんつ</title>
 <link rel="stylesheet" href="../js/syntaxhighlighter_3.0.83/styles/shThemeDefault.css" type="text/css"/>
@@ -32,6 +43,14 @@
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.10&appId=364872076886217';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div id="docHead" class="clearfix">
 <div class="Layout CenterPane clearfix">
 <div class="panelContainer clearfix">
@@ -55,7 +74,13 @@
 <div class="panelContainer clearfix">
 <div class='subTitle'>
 趣味は車輪の再発明♪</div>
-<div class="snsButtons"><div style="display:inline-block;"><g:plusone size="medium" annotation="none"></g:plusone></div>
+<div class="snsButtons"><div class="fb-like" data-href="https://takamin.github.io/techtips/gmap"
+style="display:inline-block;line-height:10px;"
+data-send="true" data-layout="button_count"
+data-action="like" data-size="small" data-share="true"
+data-width="120" data-show-faces="false">
+</div>
+<div style="display:inline-block;"><g:plusone size="medium" annotation="none"></g:plusone></div>
 <div style="display:inline-block;"><a
 href="https://twitter.com/share"
 class="twitter-share-button"
@@ -221,7 +246,13 @@ ChromeとFirefoxではそれなりに動いていますが、高分解能では�
 <p>これをいじっていて、たいしたことではありませんが、Google Maps API では湖の底の地形情報がないってことに気がつきました。海は全域網羅されていますけど、どうやら湖は水面の標高情報だけみたいです。少なくとも琵琶湖はそうでした。</p>
 <br clear="all"/>
 <hr/>
-<div class='clearfix'><div style="display:inline-block;"><g:plusone size="medium" annotation="none"></g:plusone></div>
+<div class='clearfix'><div class="fb-like" data-href="https://takamin.github.io/techtips/gmap"
+style="display:inline-block;line-height:10px;"
+data-send="true" data-layout="button_count"
+data-action="like" data-size="small" data-share="true"
+data-width="120" data-show-faces="false">
+</div>
+<div style="display:inline-block;"><g:plusone size="medium" annotation="none"></g:plusone></div>
 <div style="display:inline-block;"><a
 href="https://twitter.com/share"
 class="twitter-share-button"
