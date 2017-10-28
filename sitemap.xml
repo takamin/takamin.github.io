@@ -13,6 +13,12 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://takamin.github.io/techtips/gmap</loc>
+        <lastmod>2017-10-28T20:00:00+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://takamin.github.io/MZ-700/index</loc>
         <lastmod>2017-09-18T16:50:00+09:00</lastmod>
         <changefreq>monthly</changefreq>
