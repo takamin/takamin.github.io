@@ -1,4 +1,4 @@
-loadableMZT([
+mztList([
     { path: "WH_newmon",            name: "Wonder House",       mz700_buttonStyle: { color: 2, backgroundColor: 6 } },
     { path: "BdHopper",             name: "Building Hopper",    mz700_buttonStyle: { color: 7, backgroundColor: 1 } },
     { path: "zeplis/GENOSS_700",    name: "GENOSS",             mz700_buttonStyle: { color: 7, backgroundColor: 1 } },
