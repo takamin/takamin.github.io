@@ -3,6 +3,14 @@ function GoogleElevationMapApp() {}
 GoogleElevationMapApp.prototype = new AppFramework();
 GoogleElevationMapApp.prototype.create = function() {
 	AppFramework.prototype.create.call(this);
+
+    //分解能のラジオボタンを無効化
+    //ElevationAPIの発行数を抑えて課金を回避するため
+    //分解能を25×25に固定したため。
+    //月間$200までは無料だが、2018年5月現在過去3か月で上限を
+    //超えていた可能性があるとの事。
+    $("input[name='rbResolution'").prop("disabled", true);
+
 	this.resetColorMap();
 	
     var THIS = this;
